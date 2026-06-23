@@ -1,0 +1,7 @@
+CREATE TABLE [dbo].[TBRequisicaoSaida] (
+    [Id]         UNIQUEIDENTIFIER NOT NULL,
+    [PacienteId] UNIQUEIDENTIFIER NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+GO
+
