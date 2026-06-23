@@ -1,3 +1,6 @@
 {
-  "dotnet.defaultSolution": "ControleDeMedicamentosWeb.slnx"
+  "dotnet.defaultSolution": "ControleDeMedicamentosWeb.slnx",
+  "dataworkspace.excludedProjects": [
+    "ControleDeMedicamentosWeb.DataBase/ControleDeMedicamentosWeb.DataBase.sqlproj"
+  ]
 }

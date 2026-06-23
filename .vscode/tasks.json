@@ -1,0 +1,37 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "sqlproj: Build ControleDeMedicamentosWeb.DataBase",
+			"type": "process",
+			"command": "dotnet",
+			"args": [
+				"build",
+				"c:/Users/Thiago/Desktop/trabalhos/PROJETOS_ACADEMIA/controle-de-medicamentos-web-azure/ControleDeMedicamentosWeb.DataBase/ControleDeMedicamentosWeb.DataBase.sqlproj"
+			],
+			"problemMatcher": "$sqlproj-problem-matcher",
+			"isBackground": true,
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "Builds the ControleDeMedicamentosWeb.DataBase SQL project"
+		},
+		{
+			"label": "sqlproj: Build GestaoDeMedicamentosWebDataBase",
+			"type": "process",
+			"command": "dotnet",
+			"args": [
+				"build",
+				"c:/Users/Thiago/Desktop/trabalhos/PROJETOS_ACADEMIA/controle-de-medicamentos-web-azure/GestaoDeMedicamentosWebDataBase/GestaoDeMedicamentosWebDataBase.sqlproj"
+			],
+			"problemMatcher": "$sqlproj-problem-matcher",
+			"isBackground": true,
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"detail": "Builds the GestaoDeMedicamentosWebDataBase SQL project"
+		}
+	]
+}
